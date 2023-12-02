@@ -7,4 +7,10 @@ digits = fd_regex.match(text)
 
 for group in digits.groups():
     print(group)
-    group.replace(['one','two','three','four'],['1','2','3','4'])
+
+text = "Hello World! How are you?"
+nongreedy = re.compile(r"(.*?)")
+matches = nongreedy.match(text)
+
+for group in matches.groups():
+    print(group)

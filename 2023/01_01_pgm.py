@@ -16,7 +16,7 @@ for i,line in enumerate(input_file.readlines()):
 
     tot_sum = tot_sum + (int(first_digit)*10) + (int(last_digit))
 
-    # if i == 10:
+    # if i == 9:
     #     break
 
 print(tot_sum)
