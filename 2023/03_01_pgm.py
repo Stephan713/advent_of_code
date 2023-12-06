@@ -2,7 +2,7 @@ import regex as re
 from functools import reduce
 from operator import mul
 
-input_file = open("03_01_input.txt", 'r')
+input_file = open("inputs/03_01_input.txt", 'r')
 tot_sum = 0
 
 data = input_file.readlines()
@@ -81,7 +81,7 @@ for i,line in enumerate(data):
 
 ####################################################
 
-input_file = open("03_01_input.txt", 'r')
+input_file = open("inputs/03_01_input.txt", 'r')
 tot_sum = 0
 product = 0
 

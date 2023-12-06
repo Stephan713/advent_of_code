@@ -1,6 +1,6 @@
 import regex as re
 
-input_file = open("04_01_input.txt", 'r')
+input_file = open("inputs/04_01_input.txt", 'r')
 tot_winnings = 0
 winnings = 0
 
@@ -41,7 +41,7 @@ for i,line in enumerate(input_file.readlines()):
 
 #################################################################
 
-input_file = open("04_01_input.txt", 'r')
+input_file = open("inputs/04_01_input.txt", 'r')
 initial_scratch_cards = input_file.readlines()
 # print(initial_scratch_cards)
 

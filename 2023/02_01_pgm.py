@@ -1,6 +1,6 @@
 import regex as re
 
-input_file = open("02_01_input.txt", 'r')
+input_file = open("inputs/02_01_input.txt", 'r')
 id_sum = 0
 
 max_limits = {
@@ -39,7 +39,7 @@ for i,line in enumerate(input_file.readlines()):
 print(id_sum)
 
 
-input_file = open("02_01_input.txt", 'r')
+input_file = open("inputs/02_01_input.txt", 'r')
 power_sum = 0
 
 for i,line in enumerate(input_file.readlines()):

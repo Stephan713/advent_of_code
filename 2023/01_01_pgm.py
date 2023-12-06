@@ -1,6 +1,6 @@
 import regex as re
 
-input_file = open("01_01_input.txt", 'r')
+input_file = open("inputs/01_01_input.txt", 'r')
 tot_sum = 0
 
 for i,line in enumerate(input_file.readlines()):
@@ -27,7 +27,7 @@ def get_num(digit=str):
     return digit
 
 
-input_file = open("01_01_input.txt", 'r')
+input_file = open("inputs/01_01_input.txt", 'r')
 tot_sum = 0
 
 for i,line in enumerate(input_file.readlines()):

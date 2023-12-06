@@ -1,16 +1,4 @@
-import regex as re
+def overlap(a, b, c, d):
+	return not (a > d or b < c)
 
-text = "four95qvkvveight5"
-
-fd_regex = re.compile(r".*?(one|two|three|four|five|six|seven|eight|nine|zero|\d)[a-z 0-9]*", re.IGNORECASE)
-digits = fd_regex.match(text)
-
-for group in digits.groups():
-    print(group)
-
-text = "Hello World! How are you?"
-nongreedy = re.compile(r"(.*?)")
-matches = nongreedy.match(text)
-
-for group in matches.groups():
-    print(group)
+print(overlap(81,95,37,52))
